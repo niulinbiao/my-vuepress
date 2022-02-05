@@ -1,6 +1,8 @@
 ---
 title: 跳转公众号文章配置
 date: 2022-02-04
+categories:
+ -  halo框架
 ---
 ## 跳转公众号文章配置
 发表文章时在halo后台配置<font style="color: #D35400;">元数据</font>：key为 <font style="color: #D35400;">gzhURL </font>value为：<font style="color: #D35400;">公众号文章链接</font>

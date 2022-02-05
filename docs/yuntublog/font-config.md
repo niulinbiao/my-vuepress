@@ -1,6 +1,8 @@
 ---
 title: 字体配置（app.wxss）
 date: 2022-02-04
+categories:
+ -  小程序
 ---
 
 ## 字体配置

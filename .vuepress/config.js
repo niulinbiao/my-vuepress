@@ -10,18 +10,18 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '主页', link: '/', icon: 'reco-home' },
-      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       { text: '文档', 
         icon: '信息',
         items: [
-          { text: '云图blog1.0', link: '/docs/yuntublog/' },
-          { text: 'asd', link: '/docs/asd/' }
+          { text: '云图blog1.0', link: '/docs/yuntublog/' }
         ]
       },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       { text: '联系我们', 
         icon: 'reco-message',
         items: [
-          { text: 'GitHub', link: 'https://github.com/niulinbiao', icon: 'reco-github' }
+          { text: 'GitHub', link: 'https://github.com/niulinbiao', icon: 'reco-github' },
+          { text: 'Gitee', link: 'https://gitee.com/niusongcun', icon: 'reco-github' }
         ]
       }
     ],
@@ -76,11 +76,11 @@ module.exports = {
     // 博客设置
     blogConfig: {
       category: {
-        location: 2, // 在导航栏菜单中所占的位置，默认2
+        location: 3, // 在导航栏菜单中所占的位置，默认2
         text: '分类' // 默认 “分类”
       },
       tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
+        location: 4, // 在导航栏菜单中所占的位置，默认3
         text: '标签' // 默认 “标签”
       }
     },
@@ -93,10 +93,10 @@ module.exports = {
         avatar: "https://s4.ax1x.com/2021/12/19/TZZnHO.jpg"
       },
       {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
+        title: '云图博客',
+        desc: '基于Halo博客框架的个人微信小程序',
+        avatar: "https://s4.ax1x.com/2022/02/05/Hmab9S.png",
+        link: 'https://my-vuepress-brown.vercel.app/'
       },
     ],
     logo: '/logo.png',

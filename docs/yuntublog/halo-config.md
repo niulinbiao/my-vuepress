@@ -1,6 +1,8 @@
 ---
 title: halo后台配置
 date: 2022-02-04
+categories:
+ -  halo框架
 ---
 # halo后台配置
 ## 配置指南

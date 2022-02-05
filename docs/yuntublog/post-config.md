@@ -1,6 +1,8 @@
 ---
 title: 海报生成配置
 date: 2022-02-04
+categories:
+ -  云开发
 ---
 ## 海报生成的二维码配置
 在<font style="color: #D35400;">my-config</font>数据表中的<font style="color: #D35400;">海报URL</font>替换即可
