@@ -1,6 +1,6 @@
 module.exports = {
-  title: "One图云博客",
-  description: 'One图云博客，公众号IOS宝箱',
+  title: "云图博客",
+  description: '云图博客网',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -14,7 +14,8 @@ module.exports = {
       { text: '文档', 
         icon: '信息',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+          { text: '云图blog1.0', link: '/docs/yuntublog/' },
+          { text: 'asd', link: '/docs/asd/' }
         ]
       },
       { text: '联系我们', 
@@ -25,11 +26,50 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
+      '/docs/yuntublog/': [
+        {
+          title: '部署指南',
+          collapsable: true,
+          children: [
+            ''
+          ]
+        },
+        {
+          title: '基本配置',
+          collapsable: true,
+          children: [
+            'dl-code',
+            'base-config'
+          ]
+        },
+        {
+          title: '云函数配置',
+          collapsable: true,
+          children: [
+            'cloud-config',
+            'cloud-config1',
+            'cloud-config2',
+            'cloud-db-config',
+            'font-config',
+            'router-official',
+            'post-config',
+            'ad-config'
+          ]
+        },
+        {
+          title: 'halo后台配置',
+          collapsable: true,
+          children: [
+            'halo-config'
+          ]
+        },
+        {
+          title: '谁在用',
+          collapsable: true,
+          children: [
+            'who-use'
+          ]
+        }
       ]
     },  
     type: 'blog',
