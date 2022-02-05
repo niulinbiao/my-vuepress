@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 云图Blog
-tagline: 基于Halo博客框架的个人博客微信小程序.
+tagline: 基于Halo博客框架的个人博客微信小程序
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
